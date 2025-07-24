@@ -10,7 +10,7 @@ public class App {
             number = pedirDatos(entrada, "Ingrese un número: ");
             counter++;
         }
-        System.out.println(counter);
+        System.out.printf("La cantidad de números digitados es: %d.\n", counter);
 
     }
 
